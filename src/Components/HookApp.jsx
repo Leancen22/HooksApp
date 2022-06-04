@@ -11,10 +11,13 @@ import Layout from "./05-useLayoutDefect/Layout"
 import CallBackHook from "./06-Memos/CallBackHook"
 import MemoHook from "./06-Memos/MemoHook"
 import Memorize from "./06-Memos/Memorize"
+import MainApp from './08-useContext/MainApp'
 
 const HookApp = () => {
   return (
     <div>
+      <MainApp/>
+      <hr/>
       <TodoApp/>
       <hr/>
       <CounterApp/>
